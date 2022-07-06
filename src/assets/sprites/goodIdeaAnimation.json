@@ -1,0 +1,28 @@
+{"frames": [
+
+{
+	"filename": "goodIdea1",
+	"frame": {"x":1,"y":1,"w":468,"h":900},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":468,"h":900},
+	"sourceSize": {"w":468,"h":900}
+},
+{
+	"filename": "goodIdea2",
+	"frame": {"x":470,"y":1,"w":468,"h":900},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":468,"h":900},
+	"sourceSize": {"w":468,"h":900}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "goodIdeaAnimation.png",
+	"format": "RGBA8888",
+	"size": {"w":939,"h":902},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:dd981d747f8625cff88c8e443b98d715:05a0dbcce272b2260a8e5f4fe1ab1949:ad37e513ae7e483ff133c31f9d9ea5ec$"
+}
+}
