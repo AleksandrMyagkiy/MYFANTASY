@@ -160,7 +160,7 @@ class FinishScene extends BaseScene {
     }
     onIconClickedButton(pointer) {
         this.scene.stop();
-        this.scene.start('GameScene');
+        // this.scene.start('GameScene');
     }
 }
 
