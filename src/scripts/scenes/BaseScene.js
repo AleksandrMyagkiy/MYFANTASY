@@ -111,6 +111,7 @@ class BaseScene extends Phaser.Scene {
                 y: 1020
             }]
         });
+        this.hand.setDepth(1);
     }
 
     //----------Hover----------//
