@@ -42,7 +42,7 @@ import necklaceIcon from '../../assets/sprites/necklaceIcon.png';
 import partyIcon from '../../assets/sprites/partyIcon.png';
 import clubIcon from '../../assets/sprites/clubIcon.png';
 
-export default class PreloadScene extends Phaser.Scene {
+class PreloadScene extends Phaser.Scene {
     constructor() {
         super("Preload");
     }
@@ -99,3 +99,5 @@ export default class PreloadScene extends Phaser.Scene {
         this.scene.start('GameScene');
     }
 }
+
+export default PreloadScene;
