@@ -92,7 +92,7 @@ export default class PreloadScene extends Phaser.Scene {
         this.load.image('partyIcon', partyIcon);
         this.load.image('clubIcon', clubIcon);
 
-        this.load.atlas('womanIntro', womanIdeaPng,  womanIdeaJson);
+        this.load.atlas('womanIntro', womanIdeaPng,  womanIdeaJson); 
     }
 
     create() {
