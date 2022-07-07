@@ -28,13 +28,16 @@ class GameScene extends BaseScene {
 
     //---------- IntroAnime ----------//
     createIntroWoman() {
+        this.introWoman = this.add.sprite(70, 0).setOrigin(0); 
+
         this.anims.create({
         key: 'preparation',
         frames: 'womanIntro',
         frameRate: 3,
         repeat: 5
         });
-        this.introWoman = this.add.sprite(70, 0).setOrigin(0).play('preparation'); 
+
+        this.introWoman.play('preparation');
     }
 
     //---------- Text Blocks ----------//
