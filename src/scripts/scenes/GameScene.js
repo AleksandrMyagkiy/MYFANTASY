@@ -90,7 +90,6 @@ class GameScene extends BaseScene {
         if (this.timeout >= 3) {
             this.timer.remove();
         }
-        
         this.timeout++;
     }
     creatTimer() {
