@@ -34,7 +34,7 @@ class GameScene extends BaseScene {
         frameRate: 3,
         repeat: 5
         });
-        this.introWoman = this.add.sprite(70, 0).setOrigin(0).play('preparation'); //, 'womanIntro', 'goodIdea1'
+        this.introWoman = this.add.sprite(70, 0).setOrigin(0).play('preparation'); 
     }
 
     //---------- Text Blocks ----------//
