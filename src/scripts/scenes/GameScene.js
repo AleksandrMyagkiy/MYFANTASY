@@ -11,6 +11,7 @@ class GameScene extends BaseScene {
             {progress: 'progressBar'},
             {clothes: 'mainBody', head: 'sadlyHead'}
         ]
+
     }
 
     create() {
@@ -33,7 +34,7 @@ class GameScene extends BaseScene {
         frameRate: 3,
         repeat: 5
         });
-        this.introWoman = this.add.sprite(70, 0, 'womanIntro', 'goodIdea1').setOrigin(0).play('preparation');
+        this.introWoman = this.add.sprite(70, 0).setOrigin(0).play('preparation'); //, 'womanIntro', 'goodIdea1'
     }
 
     //---------- Text Blocks ----------//
