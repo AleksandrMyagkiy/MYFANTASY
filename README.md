@@ -1,2 +1,2 @@
 
-https://aleksandrmyagkiy.github.io/myFantasy/
+[myFantasy](http://pulse.dvorvorot.com.ua/)
