@@ -25,9 +25,7 @@ class AccessoryScene extends BaseScene {
                 this.buttons[1].image = 'necklaceIcon';
                 this.createWoman(this.buttons);
             }
-        }
-
-        if (data.buttons[3].clothes === 'suit') {
+        } else {
             if (data.buttonGo.texture.key === 'brownBagIcon') {
                 this.buttons.push({clothes: 'suit', head: 'sadlyHead', bag: 'brownBag'});
                 this.createWoman(this.buttons);

@@ -101,29 +101,25 @@ class GameScene extends BaseScene {
 
     //---------- Buttons ----------//
     setupButtonsEvents(buttonsItem) {
+        let durationSpeed = '';
         const buttonGo = buttonsItem.buttonGo;
         buttonGo.setInteractive();
 
         if (buttonGo.texture.key === 'dressIcon') {
-            this.tweens.add({
-                targets: buttonGo,
-                duration: 250,
-                scaleX: 1,
-                scaleY: 1,
-                ease: 'Sine.easeInOut',
-                repeat: 0
-            });
-
+            durationSpeed = 250;
         } else {
-            this.tweens.add({
-                targets: buttonGo,
-                duration: 750,
-                scaleX: 1,
-                scaleY: 1,
-                ease: 'Sine.easeInOut',
-                repeat: 0
-            });
+            durationSpeed = 750;
+
         }
+        this.tweens.add({
+            targets: buttonGo,
+            duration: durationSpeed,
+            scaleX: 1,
+            scaleY: 1,
+            ease: 'Sine.easeInOut',
+            repeat: 0
+        });
+
         buttonGo.on('pointerup', (pointer, gameObject) => {
             buttonsItem.scene && this.scene.start(buttonsItem.scene, {
                 buttonGo,
